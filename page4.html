@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<! Simple jazz trivia code for reference>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Try Some Jazz Trivia</title>
+    <style>
+          
+        /* CSS for body element */
+        body {
+            background-color: rgb(216, 223, 243); /* Change this color to your desired background color */
+            color: darkslategrey; /* Optional: Set text color */
+            font-family: Poor Story, sans-serif; /* Optional: Set font */
+        }
+
+        <! Code to round edges of photo>
+        img {
+        border-radius: 50%;
+        }
+  
+    </style>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <h1>ORNATE</h1>
+    <p><h2></h2>OBSCURE JAZZ TRIVIA AGENT.</p></center>
+</body>
+    </h2></p>
+
+   
+    <center>
+    <img src="https://i.pinimg.com/736x/97/34/f3/9734f30b5f4b9a190de35dc6c300c3d1.jpg">
+    </center>
+
+</head>
+<body>
+
+ 
+
+    <title>PyScript Example</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css">
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+
+    <h1>Simple Question and Answer Game</h1>
+    <p>What is 2 + 2?</p>
+
+    <!-- Input box for user's answer -->
+    <input type="text" id="answer" placeholder="Type your answer here">
+
+    <!-- Button to submit the answer -->
+    <button id="submit-button" py-click="check_answer()">Submit</button>
+
+    <!-- Area to display the result -->
+    <p id="result"></p>
+
+    <!-- PyScript section for the game logic -->
+    <py-script>
+        # Function to check the user's answer
+        def check_answer():
+            # Get the user's input from the input box
+            user_answer = Element("answer").element.value
+            
+            # Check if the answer is correct
+            if user_answer == "4":
+                result = "Correct! 2 + 2 is 4."
+            else:
+                result = "Incorrect. Try again!"
+            
+            # Display the result
+            Element("result").element.innerText = result
+
+            say_hello = lambda: "Hello World!"
+            print(say_hello())
+
+    </py-script>
+
+
+
+</body>
+</html>
