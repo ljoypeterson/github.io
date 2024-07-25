@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazz Tracks Trivia</title>
+    <link rel="stylesheet" href="standard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+    <!-- Include PyScript -->
+    <script src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+<body>
+    <h1> Let's Test Your Knowledge </h1>
+
+    <img src="jazz_trio.png"width="125px">
+
+  <!-- div class is for multiple elements div id is for single items
+    
+    <div class="box">box1</div>
+    <div class="box">box2</div>
+
+  -->
+    <div id = "box1">Think you're an expert on Jazz? </div>
+ <!--   <div id = "box2">Can you get these questions right?</div> -->
+ <p>Jazz Tracker:by Lori Joy</p>
+ <p>email:lpeterson2@ec.rr.com</p>
+ <a href="https://github.com/ljoypeterson">Lori Joy's GitHub</a>
+
+
+ <py-script>
+     
+     
+    # Online Python Playground
+    # Use the online IDE to write, edit & run your Python code
+    # Create, edit & delete files online
+    # Online Python compiler (interpreter) to run Python online.print(advice)# Write Python 3 code in this online editor and run it.
+    
+    print("Here we go!")
+    
+    
+    # This is a function asking for input
+    def jazz_tracker():
+    
+        input("Tell me your name? ")
+    
+        return
+    
+    jazz_tracker()
+    
+    
+    
+    
+    
+    # this assigning variables for input from the user
+    genre = input("Tell me your favorite genre")
+    artist_name = input("What's the artist name? ")
+    instrument_name = input("What instrument does this artist play")
+    favorite_album = input("What is your favorite album by this artist? ")
+    
+    
+    
+    
+    
+     #this is an in statement to get the correct information
+    
+    
+    
+    if instrument_name != ('Sax','Trumpet','Piano'):
+        print("Try Again, Not a Jazz Instrument")
+    
+    if genre != ('jazz'):
+        print("You're in the wrong place buddy!")
+    
+    print(artist_name, "is your favorite aritst!")
+    
+    advice = "Try listening to bebop"
+    print(advice)
+         
+         
+          
+        </py-script>
+    
+    
+</body>
+</html>
