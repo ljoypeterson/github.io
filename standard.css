@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to right, lightyellow, lightblue); /* Horizontal gradient */
+}
+
+img {
+    border-radius:  30%;
+    width: 500px;  /* Specify the desired width */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+h1 {
+    text-align: center;
+    color: white;  /* Change text color */
+    background-color: darkgray;  /* Set background color */
+    padding: 20px;                /* Add padding for spacing */
+    border-radius: 50px;          /* Set rounded corners */
+    display: inline-block;         /* Ensure it only takes the space of the content */
+    font-family: 'Tahoma', sans-serif; /* Replace with your desired font */
+    font-size: 36px; /* Adjust the font size as needed */
+}
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+#box1{
+   
+    border: 20px solid;
+    border-color: white;  
+    width: 100px;
+    height: auto;
+    border-radius: 100px;          /* Round corners */
+    text-align: center;           /* Center text */
+    font-family: 'Tahoma', sans-serif; 
+    font-size: 22px;
+    font-weight: bold;                /* Make the font bold */
+    background: lightblue;
+    margin-left: 50%
+}
+p{
+  /* border-style:inset;
+    border-width:5px;
+    border-color:wheat;
+    border-radius: ue10px; //higher the number, more round
+    padding: 50x; //this is to create spacing btwn word and border
+    /*background-color:rgba(80, 80, 158, 0.24);
+     color:white;*/
+     */
+     text-align: center;  
+     font-family: 'Italiana', sans-serif; 
+    font-size: 12px;
+}
