@@ -11,7 +11,7 @@ img {
 h1 {
     text-align: center;
     color: white;  /* Change text color */
-    background-color: darkgray;  /* Set background color */
+    background-color: darkgreen;  /* Set background color */
     padding: 20px;                /* Add padding for spacing */
     border-radius: 50px;          /* Set rounded corners */
     display: inline-block;         /* Ensure it only takes the space of the content */
