@@ -1,27 +1,63 @@
-const answers = {
-    'A1': false,
-    'B1': true,
-    'C1': false,
-    'A2': false,
-    'B2': true,
-    'C2': false,
-    'A3': true,
-    'B3': false,
-    'C3': false
-};
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazz Tracks Trivia</title>
+    <link rel="stylesheet" href="standard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script> 
+   
+</head>
+<body>
+    <h1> Let's Test Your Knowledge </h1>
 
-function checkAnswer(answer) {
-    const result = document.getElementById('result');
+    <img src= "https://thumbs.dreamstime.com/b/street-musicians-city-street-musicians-city-jazz-band-hand-drawn-vector-illustration-retro-buildings-99267570.jpg">
 
-    if (answers[answer]) {
-        result.textContent = 'Correct!';
-        result.style.color = 'green';
-    } else {
-        result.textContent = 'Wrong, try again!';
-        result.style.color = 'red';
-    }
+  <!-- div class is for multiple elements div id is for single items
+    
+    <div class="box">box1</div>
+    <div class="box">box2</div>
 
-    setTimeout(() => {
-        result.textContent = '';
-    }, 2000);
-}
+  -->
+   <!-- <div id = "box1">Think you're an expert on Jazz? </div>-->
+ <!--   <div id = "box2">Can you get these questions right?</div> -->
+ 
+ 
+
+ <div class="quiz-container">
+    <h1>Quiz</h1>
+    <div id="quiz">
+        <div class="question-container">
+            <p>Who was John Coltrane?</p>
+            <button onclick="checkAnswer('A1')"><b>Miles Davis Brother</b></button>
+            <button onclick="checkAnswer('B1')"><b>The cat with the studio album: Both directions at Once</b></button>
+            <button onclick="checkAnswer('C1')"><b>A Piano Player</b></button>
+        </div>
+        <div class="question-container">
+            <p>Which one is a Monk Album?</p>
+            <button onclick="checkAnswer('A2')"><b>Ole</b></button>
+            <button onclick="checkAnswer('B2')"><b>Brilliant Corners</b></button>
+            <button onclick="checkAnswer('C2')"><b>Doo-Bop</b></button>
+        </div>
+        <div class="question-container">
+            <p>Who did Miles Davis debut with?</p>
+            <button onclick="checkAnswer('A3')"><b>Bird</b></button>
+            <button onclick="checkAnswer('B3')"><b>Jackie McClean</b></button>
+            <button onclick="checkAnswer('C3')"><b>Kenny G</b></button>
+        </div>
+    </div>
+    <div id="result"></div>
+</div>
+<script src="script.js"></script>
+
+
+ <p>Jazz Tracker: by Lori Joy</p>
+ <p>email: lpeterson2@ec.rr.com</p>
+ <a href="https://github.com/ljoypeterson">Lori Joy's GitHub</a>
+
+ 
+    
+</body>
+</html>
