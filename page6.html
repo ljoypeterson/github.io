@@ -1,33 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jazz Tracks Trivia</title>
-    <link rel="stylesheet" href="standard.css">
-    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
-   
-</head>
-<body>
-    <h1> Let's Test Your Knowledge </h1>
+const answers = {
+    'A1': false,
+    'B1': true,
+    'C1': false,
+    'A2': false,
+    'B2': true,
+    'C2': false,
+    'A3': true,
+    'B3': false,
+    'C3': false
+};
 
-    <img src="https://media.istockphoto.com/id/165968666/vector/colourful-music-band.jpg?s=612x612&w=0&k=20&c=Zh_5lqsysnjDNGCkWxRsOsdfHQyEoSFKBsHliSEFVKE=">
+function checkAnswer(answer) {
+    const result = document.getElementById('result');
 
-  <!-- div class is for multiple elements div id is for single items
-    
-    <div class="box">box1</div>
-    <div class="box">box2</div>
+    if (answers[answer]) {
+        result.textContent = 'Correct!';
+        result.style.color = 'green';
+    } else {
+        result.textContent = 'Wrong, try again!';
+        result.style.color = 'red';
+    }
 
-  -->
-    <div id = "box1">Think you're an expert on Jazz? </div>
- <!--   <div id = "box2">Can you get these questions right?</div> -->
- <p>Jazz Tracker:by Lori Joy</p>
- <p>email:lpeterson2@ec.rr.com</p>
- <a href="https://github.com/ljoypeterson">Lori Joy's GitHub</a>
-
-
- 
-    
-</body>
-</html>
+    setTimeout(() => {
+        result.textContent = '';
+    }, 2000);
+}
