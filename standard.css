@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, lightyellow, lightblue); /* Horizontal gradient */
+    background: linear-gradient(to right, lightgrey, whitesmoke); /* Horizontal gradient */
 }
 
 img {
@@ -9,14 +9,15 @@ img {
 }
 
 h1 {
-    text-align: center;
+    border: 20px solid;
+    text-align: right;
     color: white;  /* Change text color */
-    background-color: darkgreen;  /* Set background color */
+    background-color: burlywood;  /* Set background color */
     padding: 20px;                /* Add padding for spacing */
-    border-radius: 50px;          /* Set rounded corners */
+    border-radius: 10px;          /* Set rounded corners */
     display: inline-block;         /* Ensure it only takes the space of the content */
     font-family: 'Tahoma', sans-serif; /* Replace with your desired font */
-    font-size: 36px; /* Adjust the font size as needed */
+    font-size: 24px; /* Adjust the font size as needed */
 }
 .parent {
     display: flex;
@@ -27,14 +28,15 @@ h1 {
    
     border: 20px solid;
     border-color: white;  
-    width: 100px;
-    height: auto;
-    border-radius: 100px;          /* Round corners */
+    width: 200px;
+    height: 200px
+    border-radius: 50px;          /* Round corners */
     text-align: center;           /* Center text */
+    color:whitesmoke;
     font-family: 'Tahoma', sans-serif; 
     font-size: 22px;
     font-weight: bold;                /* Make the font bold */
-    background: lightblue;
+    background: black;
     margin-left: 50%
 }
 p{
@@ -49,4 +51,35 @@ p{
      text-align: center;  
      font-family: 'Italiana', sans-serif; 
     font-size: 12px;
+}
+.quiz-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    background-color: plum;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: plum;
 }
