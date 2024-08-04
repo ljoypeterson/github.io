@@ -1,0 +1,113 @@
+/* Basic reset for margins and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    /*background: linear-gradient(to right,white, rgb(39, 228, 228)); *//* Gradient Background */
+
+    background-image: url('https://c8.alamy.com/comp/2X4X2Y5/continuous-one-line-drawing-double-bass-arab-player-standing-with-big-string-instrument-woman-musician-playing-classical-music-with-fingers-professi-2X4X2Y5.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+    width: 300px;  /* Adjust this value as needed */
+    height: auto;  /* This maintains the aspect ratio */
+    display: flex;
+    justify-content: left;
+    min-height: 100vh;
+    
+}
+.container {
+    width: 1000px;  /* Or whatever width you prefer */
+  }
+
+img {
+    width: 300px;  /* Adjust this value as needed */
+    height: auto;  /* This maintains the aspect ratio */
+    border-radius: 100px; 
+}
+h1 {
+    width: 10;  /* Adjust this value as needed */
+    height: auto; /* This maintains the aspect ratio */
+    vertical-align: middle; /* This aligns the image vertically with the text */
+    border: 10px solid;
+    text-align: center;
+    color:lightcyan;  /* Change text color */
+    background-color: rgb(2, 10, 2);  /* Set background color */
+    padding: 20px;                /* Add padding for spacing */
+    border-radius: 70px;          /* Set rounded corners */
+    display: inline-block;         /* Ensure it only takes the space of the content */
+    font-family: Trochut; /* Replace with your desired font */
+    font-size: 24px; /* Adjust the font size as needed */
+}
+p1 {
+    text-align: center;
+    border: 2px solid;
+    color: blueviolet);  /* Change text color */
+    background-color:rgba(0, 0, 0, 0.1)(53, 216, 61);  /* Set background color */
+    border-radius: 70px;       /* Set rounded corners */
+    font-family: Trochut; /* Replace with your desired font */
+    font-size: 24px; /* Adjust the font size as needed */
+    
+
+}
+
+p2 {
+    text-align: center;
+    color: rgb(14, 59, 14);  /* Change text color */
+    background-color: rgb(97, 216, 170);  /* Set background color */
+
+
+}
+.menu {
+    max-width: 600px;
+    margin: 20px auto; /* Center the menu */
+    padding: 10px;
+    background-color: white; /* White background for the menu */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+
+}
+
+.menu-item {
+    margin: 10px 0; /* Space between menu items */
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Line between items */
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Align items vertically */
+}
+
+.menu-item:last-child {
+    border-bottom: none; /* Remove the line for the last item */
+}
+
+.menu-item img {
+    width: 100px; /* Fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between image and text */
+    border-radius: 5px; /* Rounded corners for images */
+    border-radius: 70px;       /* Set rounded corners */
+}
+
+.menu-item-details {
+    flex: 1; /* Allow details to take up remaining space */
+}
+
+.menu-item h2 {
+    margin: 0;
+    color: #333; /* Dark text color for item names */
+}
+
+.menu-item .price {
+    margin: 5px 0;
+    color: #555; /* Medium text color for prices */
+    font-weight: bold; /* Bold text for prices */
+}
+
+.menu-item .description {
+    margin: 5px 0 0; /* Space above description */
+    color: #666; /* Lighter text color for descriptions */
+}
+
+  
+ 
