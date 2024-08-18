@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, white, rgb(240, 235, 235));
+  }
+  
+  h1 {
+    border: 20px solid;
+    text-align: center;
+    color: white;  /* Change text color */
+    background-color: rgb(48, 148, 9);  /* Set background color */
+    padding: 20px;                /* Add padding for spacing */
+    border-radius: 10px;          /* Set rounded corners */
+    display: inline-block;         /* Ensure it only takes the space of the content */
+    font-family: 'Tahoma', sans-serif; /* Replace with your desired font */
+    font-size: 20px; /* Adjust the font size as needed */
+}
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 5px;
+  }
+  
+  .text-box {
+    text-align: center;
+    color: black;  /* Change text color */
+    background-color: #bde4f0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Georgia', sans-serif;
+    font-size: 20px; /* Adjust the font size as needed */
+  }
+  
+  .text-box h3 {
+    text-align: center;*
+    color: black;
+    font-family: "Georgia", serif;
+   
+    font-size: 20px; /* Adjust the font size as needed */
+    margin-bottom: 10px;
+  }
+  
+  .text-box p {
+    color: black;
+    text-align: center;
+    font-family: "Georgia", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .link {
+    font-family: "Georgia", serif;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    max-width: 500px;
+    height: auto;
+  }
+  
+ 
